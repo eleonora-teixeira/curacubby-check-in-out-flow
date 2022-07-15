@@ -1,0 +1,7 @@
+{
+    "$schema": "https://on.cypress.io/cypress.schema.json",
+    "baseUrl": "https://kiosk-canary.curacubby.com/",
+    "integrationFolder": "cypress/specs",
+    "viewportHeight": 900,
+    "viewportWidth": 1250
+}

@@ -1,0 +1,14 @@
+{
+  "name": "curacubby-check-in-out-flow",
+  "version": "1.0.0",
+  "description": "test automation from the flow check-in and check-out of students, by their parents.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "author": "Eleonora Teixeira",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "9.4.1"
+  }
+}
