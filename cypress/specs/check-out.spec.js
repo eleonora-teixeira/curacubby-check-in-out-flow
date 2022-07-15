@@ -11,8 +11,23 @@ describe('Check-out flow', () => {
 
         checkout.inpuLastMobileFourDigits()
         checkout.inpuLastPinFourDigits()
-        checkout.checkOutDigits()
-        checkout.selectRole()
+        checkout.checkOutButton()
+        checkout.selectRoleParent()
+
+        child.verifyChildrenSectionScreen()
+        child.selectCheckOutChildren()
+        child.checkOutChildren()
+        child.verifyCheckOutSuccess()
+    });
+
+    it('Check Out a kid as a staff', () => {
+        dash.verifyDashboardScreen()
+        dash.accessCheckOutSection()
+
+        checkout.inpuLastMobileFourDigits()
+        checkout.inpuLastPinFourDigits()
+        checkout.checkOutButton()
+        checkout.selectRoleStaff()
 
         child.verifyChildrenSectionScreen()
         child.selectCheckOutChildren()

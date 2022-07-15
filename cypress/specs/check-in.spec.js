@@ -11,8 +11,23 @@ describe('Check-in flow', () => {
 
         checkin.inpuLastPinFourDigits()
         checkin.inpuLastPinFourDigits()
-        checkin.checkInDigits()
-        checkin.selectRole()
+        checkin.checkInButton()
+        checkin.selectRoleParent()
+
+        child.verifyChildrenSectionScreen()
+        child.selectCheckInChildren()
+        child.checkInChildren()
+        child.verifyCheckInSuccess()
+    });
+
+    it('Check In a kid as a staf', () => {
+        dash.verifyDashboardScreen()
+        dash.accessCheckInSection()
+
+        checkin.inpuLastPinFourDigits()
+        checkin.inpuLastPinFourDigits()
+        checkin.checkInButton()
+        checkin.selectRoleStaff()
 
         child.verifyChildrenSectionScreen()
         child.selectCheckInChildren()

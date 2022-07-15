@@ -9,12 +9,16 @@ class CheckIn{
         cy.get(el.pinDigits).clear().type('9999')
     }
 
-    checkInDigits(){
+    checkInButton(){
         cy.get(el.checkinButton).click()
     }
 
-    selectRole(){
+    selectRoleParent(){
         cy.get(el.parentRole).click()
+    }
+
+    selectRoleStaff(){
+        cy.get(el.staffRole).click()
     }
 }
 
