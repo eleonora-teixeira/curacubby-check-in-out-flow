@@ -20,7 +20,7 @@ describe('Check-in flow', () => {
         child.verifyCheckInSuccess()
     });
 
-    it('Check In a kid as a staf', () => {
+    it('Check In a kid as a staff', () => {
         dash.verifyDashboardScreen()
         dash.accessCheckInSection()
 
