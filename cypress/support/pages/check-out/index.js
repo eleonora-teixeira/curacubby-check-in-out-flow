@@ -22,4 +22,4 @@ class CheckOut{
     }
 }
 
-export default new CheckOut()
+export default new CheckOut

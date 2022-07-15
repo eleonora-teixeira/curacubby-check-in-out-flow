@@ -22,4 +22,4 @@ class CheckIn{
     }
 }
 
-export default new CheckIn()
+export default new CheckIn

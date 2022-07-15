@@ -16,4 +16,4 @@ class Dashboard{
     }
 }
 
-export default new Dashboard()
+export default new Dashboard

@@ -33,4 +33,4 @@ class SelectChildren{
     }
 }
 
-export default new SelectChildren()
+export default new SelectChildren
