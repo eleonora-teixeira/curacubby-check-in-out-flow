@@ -10,7 +10,7 @@ class Dashboard{
     }
 
     verifyDashboardScreen(){
-        cy.contains(el.logo).should('be.visible')
+        cy.get(el.logo).should('be.visible')
         cy.contains('Student Check In').should('be.visible')
         cy.contains('Foo Bar').should('be.visible')
     }
